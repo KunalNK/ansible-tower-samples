@@ -4,4 +4,7 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
+    - name: Print IP address
+      debug: var=ansible_all_ipv4_addresses
+      
 
